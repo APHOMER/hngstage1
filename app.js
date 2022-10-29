@@ -15,7 +15,6 @@ app.get('/hngstageone', (req, res) => {
         bio: 'My character is more important than my Learning'
     };
     const { slackUsername, backend, age, bio } = data;
-    // console.log(res.json(data));
     return res.json(data);
 });
 
